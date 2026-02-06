@@ -1,0 +1,155 @@
+<DIV> = cria contêineres genéricos no HTML para agrupar elementos
+
+<HEADER> = Representa o cabeçalho de uma página ou de uma seção. Geralmente contém: Logo, Título, Menu de navegação e Barra de busca
+
+<MAIN> = Representa o conteúdo principal da página.
+
+<FOOTER> = Representa o rodapé da página ou de uma seção. Geralmente contém: Informações de copyright, Links úteis, Contatos  e Redes sociais
+
+<NAV> = Ela indica que aquele conjunto de links é um menu de navegação principal ou secundário.
+
+<SECTION> = Usada para agrupar conteúdos relacionados dentro de uma página. Pense nela como um capítulo do conteúdo. 
+✔ Normalmente tem um título (<h1>–<h6>) 
+✔ Agrupa conteúdo com o mesmo tema
+
+<ARTICLE> = Usada para conteúdo independente e reutilizável. Deve fazer sentido sozinho, mesmo fora da página.
+✔ Notícias
+✔ Posts de blog
+✔ Comentários
+✔ Cards de produtos
+
+<ASIDE> = Usada para conteúdo secundário ou complementar. Não é o foco principal da página.
+✔ Barra lateral
+✔ Links relacionados
+✔ Autor do post
+✔ Publicidade
+
+TIPOS DE CAIXAS CSS: 
+BOX-LEVEL = Servem para estruturar a página em grandes seções, containers ou blocos de conteúdo. Eles são ideais para organizar a estrutura principal. 
+Exemplos: 
+<div>
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+INLINE-LEVEL = Servem para envolver pequenas porções de conteúdo dentro de um bloco, como formatar uma palavra específica em um parágrafo, sem interromper o fluxo do texto. 
+Exemplos: 
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup>
+<sub>
+<label>
+<button>
+<input>
+<select>
+
+
+<p> = Paragrafo
+
+<h1> = Titulo
+ 
+<main> serve para envolver o conteúdo principal e exclusivo de uma página
+
+<hr> Linha horizontal que divide uma paragrado outro
+
+<br> Quebra de parágrafo
+
+&lt; = < para a esquerda
+&gt; = > para a direita
+
+<img> = para colocar imagens (MUITO IMPORTANTE: src = Origem do arquivo, onde ele está baixado.  alt = Explicação sobre o que é a imagem.
+width = largura da imagem
+height = altura da imagem
+
+<address> é usado para fornecer informações
+
+<nav> = elemento de navegação
+
+<ul> = uma lista de itens
+
+<li> = representa um item
+
+<a> = serve para colocar um link de redirecionamento na escrita
+<a href="../Pasta anterior"> serve para selecionar uma pasta anterior
+<a href="./Mesma pasta"> serve para selecionar algo dentro da mesma pasta
+<a href="Nome da pasta" download=Nome da pasta type=application/zip ou pdf> usado para fazer download do link
+
+<strong> = deixar o texto em negrito
+
+<!-- --> = fazer alguma observação
+
+<mark> = fazer uma marcação no texto
+
+<del> = serve para riscar um texto
+
+<ins> = serve para sublinhar um texto
+
+<sup> = para adicionar um texto sobrescrito, acima de algo, como por exemplo: X elevado a algum valor
+
+<sub> = para adicionar um texto subscrito, abaixo de algo, como por exemplo: a formula H20, na qual o 2 fica abaixo dos demais
+
+<code> = serve para deixar as letras com o mesmo espaçamento, "do mesmo tamanho"
+
+<pre> = tudo o que for escrito será exibido igual na página
+
+<q> = serve para colocar aspas, no sentido de citação   
+
+<blockquote> serve para colocar uma citação mais completa, de um livro por exemplo      
+
+<abbr> Serve para explicar o significado de alguma coisa
+
+<bdo dir="rtl"> o texto é escrito da direita para esquerda
+<bdo dir="ltr"> o texto é escrito da esquerda para direita
+
+<ol> lista ordenada (posso usar 1, A, a, I, i)
+<ul> Lista não ordenada (posso usar: circle, square e disc)
+<li> Conteúdo da lista
+<dt> Termo (Lista de definição)
+<dd> Descreve o termo
+
+<target="_self"> serve para abrir o link na mesma aba, tirando a sua
+<target="_blank"> serve para abrir o link em uma nova aba, mantendo a sua ao lado 
+
+<rel> serve para indicar de onde é o site, exemplos: 
+<rel="external"> link para outro site que não faz parte desse site
+<rel="next"> indica que o link é para a próxima parte do documento atual 
+<rel="prev"> indica que o link é para a parte anterior do documento atual
+<rel="author"> inidica que é um link para o site do autor do artigo atual
+
+<picture> fornece mais controle sobre imagens
+<source media="" srcset="" type=""> alterar entre as imagens, exemplo: 
+<source media="(max-width: 550px)" srcset="imagens/foto-mp.png" type="image/png">
+<source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+<source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"> 
+
+<audio> = para adicionar um áudio no site (VOCÊ PRECISA USAR O COMANDO: CONTROLS PARA O AUDIO FUNCIONAR, exemplo:) 
+<audio controls> = aparece a opção de tocar o audio
+<áudio preload auto / metadata / none> = a página carrega apenas o que você quiser, AUTO carrega tudo / METADATA informações básicas / NONE carrega nada
+<audio loop> = o audio ficara em loop
+<source src="" type=""> = serve para escolher o formato que o navegador vai carregar, exemplo:
+<source src="midia/happy-mistake.mp3" type="audio/mpeg"> = carrega em mp3
+<source src="midia/happy-mistake.ovv" type="audio/ogg"> = carrega em ogg
+<source src="midia/gappy-mistake.wav" type="audio/wav"> (MUITO PESADO, NÃO RECOMENDADO USAR)
+
+<video> = para adicionar um video no site (TAMBÉM PRECISA USAR O: CONTROLS)
+<video poster=""> = adiciona uma tumb para o video
+<source src="" type=""> = serve para escolher o formato que o navegador vai carregar, exemplo:
+<source src="midia/Videotesteaulamaisleve.mp4" type="video/mp4">
+<source src="midia/videotesteaula1.webm" type="video/webm">
+<source src="midia/videotesteaula2.mkv" type="video/mkv">
+

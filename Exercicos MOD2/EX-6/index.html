@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="shortcut icon" href="css-icon - Copia (6).png" type="image/x-icon">
+    <style>
+        body {
+        background-image: linear-gradient(to right, #182621, #39594A, #5E8C77);}
+        
+        h1 {
+        color: #A66B37; 
+        font-family: 'Times New Roman', Times, serif; 
+        text-decoration: underline; text-align: center;}
+
+        div {
+        text-align: center; 
+        height: 200px; 
+        width: 200px;
+        margin: auto;
+        border: 1px solid black; 
+        background-color: #591902; 
+        color: #A66B37;
+        display: inline-block;}
+
+        div:hover {
+        background-color: #182621;}
+
+        div > p {
+        display: none;}
+        div:hover > p {display: block;}
+    </style>
+</head>
+<body>
+    <h1>Usando divs</h1>
+
+    <hr>
+
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+
+    <hr>
+
+    <h1>Exemplo de hover</h1>
+    <div style="font-family: Arial, Helvetica, sans-serif;">
+    Passe o mouse aqui
+    <p style="text-decoration: underline; font-family: Arial, Helvetica, sans-serif;">TEXTO ESCONDIDO</p>
+    </div>
+</body>
+</html>

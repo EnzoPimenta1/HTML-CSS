@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Revisão de matéria </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="Designbolts-Cute-Social-2014-HTML5.256.png" type="image/x-icon">
+</head>
+<body>
+    <h1> <ins> Mídias em HTML5 </ins> </h1>
+
+    <hr>
+
+    <h2> Imagem Dinâmica </h2>
+    <p> Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador </p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png">
+        <source media="(min-width: 850px)" srcset="imagens/foto-m.png">
+        <source media="(min-width: 600px)" srcset="imagens/foto-p.png">
+        <img src="imagens/foto-mp.png" alt="Foto Flexivel">
+    </picture>
+
+    <hr>
+
+    <h1> <ins> Reproduzindo audio </ins> </h1>
+
+    <hr>
+    
+    <p> Aprendendo a reproduzir audio </p>
+
+    <audio controls preload="metadata">
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="midia/happy-mistake.wav" type="audio/wav">
+        <p> Infelizmente seu navegador não consegue reproduzir o audio. <a href="midia/happy-mistake.mp3"> clique aqui para baixar o arquivo MP3 </a> </p>
+    </audio>
+
+</body>
+</html>

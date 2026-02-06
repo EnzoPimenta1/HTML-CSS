@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão de matéria</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="Designbolts-Cute-Social-2014-HTML5.256.png" type="image/x-icon">
+</head>
+<body>
+    <h1> <ins> Videos com HTML5 </ins> </h1>
+    <p> Este video está hospedado no meu próprio servidor </p>
+    <video controls loop poster="imagens/tumb.jpeg" width="200">
+        <source src="midia/Videotesteaulamaisleve.mp4" type="video/mp4">
+        <source src="midia/videotesteaula1.webm" type="video/webm">
+        <source src="midia/videotesteaula2.mkv" type="video/mkv">
+    </video>
+
+    <hr>
+
+    <h1> Inserindo videos do youtube </h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=pWtPQU3mVaOL3uRj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <hr>
+
+    <h1> Imagem dinâmica </h1>
+    <p> Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador </p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png">
+        <source media="(min-width: 800px)" srcset="imagens/foto-m.png">
+        <source media="(min-width: 600px)" srcset="imagens/foto-p.png">
+        <img src="imagens/foto-mp.png" alt="Imagem flexivel">
+    </picture>
+    
+    <hr>
+
+    <h1> <ins> Reproduzindo audio </ins> </h1>
+    
+    <hr>
+
+    <p> Aprendendo a reproduzir audio </p>
+
+    <audio controls preload="metadata">
+        <source src="midia/happy-mistake.mp3" type="audio/mp3">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="midia/happy-mistake.wav" type="audio/wav">
+        <p> Seu navegador infelizmente não consegue reproduzir audio. </p>
+    </audio>
+</body>
+</html>

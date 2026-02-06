@@ -1,0 +1,83 @@
+TEMA MUITO IMPORTANTE: tudo que é ID em html, em css é: #
+		       tudo que é class em html, em css é: .
+
+PSEUDO-CLASSES DE ESTADO DO USUARIO (Interativas)
+Estas ativam estilos baseados na interação do usuário com o elemento. 
+:hover: Aplicado quando o cursor do mouse passa sobre um elemento.
+:active: Aplicado no momento em que um elemento é ativado (ex: botão pressionado/clicado).
+:focus: Aplicado quando um elemento está focado (geralmente via teclado com Tab ou clique).
+:visited: Estiliza links que o usuário já visitou.
+:link: Estiliza links que ainda não foram visitados. 
+:root = Sua principal função é definir variáveis CSS globais (propriedades personalizadas)
+
+Pseudo-elementos em CSS são palavras-chave adicionadas a um seletor que permitem estilizar partes específicas de um elemento ou inserir conteúdo "falso" (que não existe no HTML) antes ou depois do conteúdo original. 
+::before e ::after (Os mais utilizados) 
+Inserem conteúdo (texto, imagem, ícones) antes (::before) ou depois (::after) do conteúdo de um elemento.
+
+> = O símbolo > em CSS é conhecido como Seletor de Filho Direto (ou Child Combinator). Ele é utilizado para aplicar estilos a um elemento que é filho direto de outro, sem afetar netos ou descendentes mais distantes na estrutura HTML. 
+
+PADDING = É a distância entre o conteúdo e a borda
+BORDER = Fica em volta do padding e do conteúdo
+MARGIN = É a distância entre um elemento e os outros
+OOUTLINE = Contorno externo, fora da border
+
+
+COLOR = cor das letras
+BACKGROUND-COLOR = cor que aparece no fundo das paginas
+BACKGROUND-IMAGE: LINEAR-GRADIENT (DIREÇÃO QUE VC QUER, CORES QUE VC QUER) direção que vc quer o degrade de cor (cores que vc quer) exemplos: 
+background-image: linear-gradient(to right(ESQUERDA PARA DIREITA), black, white);
+background-image: linear-gradient(to top(DE BAIXO PARA CIMA), white, black);
+background-image: linear-gradient(to left(DIREITA PARA ESQUERDA), green, red);
+background-image: linear-gradient(to bottom (DE CIMA PARA BAIXO), red, green);
+
+STYLE = serve para incorporar códigos CSS diretamente no documento, definindo regras de estilo (como cores, fontes, layouts)
+
+(TAMANHOS DE FONTE: MEDIDAS ABSOLUTAS: CM, MM, IN, PX, PT, PC / MEDIDAS RELATIVAS: EM, EX, REM, VW, VH, %)
+RECOMENDADO USAR : (PX E EM)
+FONT: FONT-STYLE FONT-WEIGHT FONT-SIZE FONT FAMILY = serve para escrever todas tags em uma única linha (NÃO PRECISA ESCREVER TODAS TAGS OBRIGATORIAMENTE)
+FONT-FAMILY = Selecionar um tipo de fonte
+FONT-SIZE = Tamanho da fonte
+FONT-WEIGHT = Peso da fonte, exemplos: (lighter, normal, bold, bolder) também se pode usar números para representar ( de 100 a 900)
+IMPORTANTE: nem todas fontes tem todas variações
+TEXT-ALIGN: JUSTIFY = deixa todas as linhas com o mesmo tamanho
+TEXT-ALIGN: CENTER = centraliza o texto
+TEXT-DECORATION: UNDERLINE; = sublinha os textos
+TEXT-STYLE =  serve para definir o estilo da fonte como normal, itálico ou oblíquo
+
+
+@charset "UTF-8"; = para dizer que o css é compatível com acentuações
+
+* = usado para aplicar estilos a todos os elementos de uma página HTML de uma só vez
+
+WEIGHT: meche no peso
+WIDTH = meche na largura
+HEIGHT = meche na altura
+PADDING = serve para criar um espaçamento interno entre o conteúdo de um elemento
+MARGIN = serve para criar espaçamento externo ao redor dos elementos
+BORDER = A propriedade border adiciona uma linha ao redor do conteúdo de um elemento (entre o padding e a margin)
+BORDER-RADIUS: tamanho que vc quer; = acrescentar bordas arredondadas
+OUTLINE = O outline é uma linha desenhada fora da borda do elemento. 
+BOX-SHADOW: X X X COR; = é usado para adicionar efeitos de sombra ao redor ou dentro de elementos
+TEXT-SHADOW: X X X COR; = adiciona sombra no texto
+
+IMPORTANTE: para modificar um único h1, h2, p, entre outros, usamos a tag ID="Escreva o que quiser" exemplos:
+<h1 id="principal">
+<h2 id="principal">
+<p id="principal">
+outro caso é quando queremos modificar mais de um elemento, nesse caso usamos CLASS="Escreva o que quiser"
+IMPORTANTE: para adicionar uma trecho de um texto a class use: <SPAN>, exemplos:
+<span class="Escreva o que quiser"> Lorem ipsum </span>
+
+DISPLAY = A propriedade display no CSS define como um elemento HTML é renderizado e se comporta no layout
+
+
+
+
+
+
+
+
+
+
+
+

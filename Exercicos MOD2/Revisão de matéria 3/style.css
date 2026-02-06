@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body {background-image: linear-gradient(to right, #485059, #A3B2BF, #C1D0D9);}
+
+h1 {
+text-align: center;}
+
+h1.principal {
+background-color: #485059; 
+width: 500px; 
+margin: auto; 
+border-radius: 10px;
+box-shadow: 1px 1px 3px white; 
+color: #C1D0D9; 
+text-shadow: 0px 1px 0px #C1D0D9;}
+
+h1.secundario {
+color: #485059; 
+text-shadow: 0px 1px 0px white;}
+
+h2 {
+text-align: center;}
+
+h2.basico {
+color: #006341; 
+text-decoration: underline; text-shadow: 0px 1px 0px white;}
+
+h2.medio {
+color: #c0da00; 
+text-decoration: underline; text-shadow: 0px 1px 0px white;
+}
+
+h2.high {
+color: #631300; 
+text-decoration: underline; text-shadow: 0px 1px 0px white;
+}
+
+p {
+text-align: center; 
+text-align: justify; 
+width: 500px; 
+margin: auto; 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.9em;}
+
+div {
+background-color: #485059; 
+width: 200px; 
+height: 200px;
+text-align: center; 
+border: 1px solid black;
+margin: auto;}
+
+div > p {
+display: none; }
+
+div:hover > p {
+display: block;}
+
+div:hover {
+background-color: white;}
+
+a {
+color: black; 
+text-align: center; 
+margin: auto; 
+text-decoration: none;}
+
+a:hover {
+text-decoration: underline;}
+
+a:active {
+color: white;}
+
+a::before {
+content: '→'; 
+color: white;}
+
+a::after {
+content: '←'; 
+color: white;}
+

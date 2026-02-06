@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body {
+background-image: linear-gradient(to left, #D8D9D7, #BFBFBD, #73706C);} 
+
+header {
+background-color: #D8D9D7; 
+border: 3px solid black; 
+margin: 30px 0px 50px 0px}
+
+h1 {
+text-align: center; 
+background-color: #73706C; 
+font-family: "Domine", serif; 
+color: #D8D9D7;}
+
+nav { 
+margin: 0px auto 5px auto; 
+text-align: center;}
+
+a {
+color: #73706C; 
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 0.9em;}
+
+a#sec {
+color: #F2F2F2; 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 1.0em;}
+
+a:hover {
+text-decoration: underline;}
+
+a:active {color: #0D0D0D;}
+
+a::before {
+content: "→";}
+
+a::after {
+content: "←";}
+
+main {
+background-color: #D8D9D7; 
+padding: 1px 15px 20px 15px; 
+width: 700px; margin: auto;}
+
+article {
+background-color: #73706C; 
+width: 700px; margin: auto;}
+
+aside {
+background-color: #0D0D0D; 
+color: #BFBFBD; 
+padding: 3px 0px 3px 5px; 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 0.9em;} 
+
+h2 {
+padding: 3px 0px 0px 5px; 
+font-family: "Domine", serif; text-decoration: underline;}
+
+p {
+padding: 0px 0px 0px 5px; 
+text-align: justify; 
+width: 680px; 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 0.9em;}
+
+footer {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.9em;
+background-color: #0D0D0D;
+color: #F2F2F2;
+margin-top: 50px;
+text-align: center;
+padding: 10px 0px 10px 0px;}

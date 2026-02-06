@@ -1,0 +1,32 @@
+PARA ADICIONAR UM EMOJI NA PÁGINA USE: &#x (Código do emoji) exemplo: &#x 1F601;
+
+Símbolo	Descrição	Entity
+(espaço)	Espaço em branco	&nbsp;
+
+®	Marca registrada	         &reg;
+
+©	Copyright	                &copy;
+
+™	Trade Mark	               &trade;
+
+€	Euro	                        &euro;
+
+£	Libra (pound)	               &pound;
+
+¥	Yen	                         &yen;
+
+¢	Cent	                        &cent;
+
+∅	Vazio	                       &empty;
+
+Σ	Soma	                         &sum;
+
+Δ	Delta	                       &Delta;
+
+←	Seta esquerda	                &larr;
+
+↑	Seta acima	                &uarr;
+
+→	Seta direita	                &rarr;
+
+↓	Seta baixo	                &darr;
