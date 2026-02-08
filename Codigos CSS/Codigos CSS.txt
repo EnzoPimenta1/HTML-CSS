@@ -46,6 +46,14 @@ BACKGROUND-REAPET: A propriedade background-repeat no CSS define se uma imagem d
 
 BACKGROUND-POSITION: A propriedade background-position no CSS define o ponto de partida (origem) de uma imagem de fundo dentro de um elemento, alinhando-a horizontalmente e verticalmente
 
+BACKGROUND-SIZE: 
+cover: (Recomendado para imagens de fundo cheias): A imagem é redimensionada para cobrir toda a área do elemento. Se a proporção for diferente, a imagem é cortada para se ajustar sem distorção.
+contain: A imagem é redimensionada para ficar inteiramente contida no elemento, mostrando-a por completo, mas sem distorção. Pode deixar espaços vazios caso as proporções difiram.
+auto: A imagem mantém o seu tamanho original (largura e altura).
+Porcentagem: Define a largura e altura da imagem como uma porcentagem do tamanho da área do elemento (ex: background-size: 100% 100%; estica a imagem para preencher tudo, possivelmente distorcendo-a).
+Comprimento: Define tamanhos fixos para a largura e altura da imagem (ex: background-size: 300px 150px;).
+Um valor único: Se apenas um valor for definido (ex: background-size: 50%;), ele define a largura, e a altura é ajustada automaticamente para manter a proporção da imagem.
+
 STYLE = serve para incorporar códigos CSS diretamente no documento, definindo regras de estilo (como cores, fontes, layouts)
 
 (TAMANHOS DE FONTE: MEDIDAS ABSOLUTAS: CM, MM, IN, PX, PT, PC / MEDIDAS RELATIVAS: EM, EX, REM, VW, VH, %)
