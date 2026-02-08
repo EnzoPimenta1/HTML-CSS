@@ -44,6 +44,8 @@ BACKGROUND-IMAGE URL: background-image: url('ARQUIVO QUE ESTÁ A FOTO');
 
 BACKGROUND-REAPET: A propriedade background-repeat no CSS define se uma imagem de fundo é repetida (lado a lado) ou não. O valor padrão é repeat (preenche todo o espaço), mas pode ser configurada como no-repeat (imagem única), repeat-x (apenas horizontal), repeat-y (apenas vertical), space ou round para controle de ajuste.
 
+BACKGROUND-POSITION: A propriedade background-position no CSS define o ponto de partida (origem) de uma imagem de fundo dentro de um elemento, alinhando-a horizontalmente e verticalmente
+
 STYLE = serve para incorporar códigos CSS diretamente no documento, definindo regras de estilo (como cores, fontes, layouts)
 
 (TAMANHOS DE FONTE: MEDIDAS ABSOLUTAS: CM, MM, IN, PX, PT, PC / MEDIDAS RELATIVAS: EM, EX, REM, VW, VH, %)
