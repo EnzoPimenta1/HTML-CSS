@@ -1,6 +1,16 @@
 TEMA MUITO IMPORTANTE: tudo que é ID em html, em css é: #
 		       tudo que é class em html, em css é: .
 
+DISPLAY = A propriedade display no CSS define como um elemento HTML é renderizado e se comporta no layout
+block: Elementos que ocupam toda a largura disponível e iniciam em uma nova linha (ex: <div>, <p>, <h1>).
+inline: Elementos que ficam na mesma linha, ocupando apenas o espaço necessário, sem quebra de linha (ex: <span>, <a>, <strong>).
+inline-block: Combina o fluxo inline (na mesma linha) com as propriedades de block (aceita width, height, margin vertical).
+none: Remove completamente o elemento do fluxo da página, como se não existisse (diferente de visibility: hidden, que mantém o espaço).
+flex (Flexbox): Transforma o elemento em um contêiner flexível, ideal para alinhar e distribuir itens em uma dimensão (linha ou coluna).
+grid (CSS Grid): Transforma o elemento em um contêiner de grade, permitindo layouts bidimensionais complexos (linhas e colunas).
+table: Faz o elemento se comportar como uma tabela HTML (funcionalidade mais antiga).
+list-item: Faz o elemento se comportar como um item de lista (<li>).
+
 PSEUDO-CLASSES DE ESTADO DO USUARIO (Interativas)
 Estas ativam estilos baseados na interação do usuário com o elemento. 
 :hover: Aplicado quando o cursor do mouse passa sobre um elemento.
@@ -29,6 +39,7 @@ background-image: linear-gradient(to right(ESQUERDA PARA DIREITA), black, white)
 background-image: linear-gradient(to top(DE BAIXO PARA CIMA), white, black);
 background-image: linear-gradient(to left(DIREITA PARA ESQUERDA), green, red);
 background-image: linear-gradient(to bottom (DE CIMA PARA BAIXO), red, green);
+background-image: url('ARQUIVO QUE ESTÁ A FOTO');
 
 STYLE = serve para incorporar códigos CSS diretamente no documento, definindo regras de estilo (como cores, fontes, layouts)
 
@@ -68,7 +79,6 @@ outro caso é quando queremos modificar mais de um elemento, nesse caso usamos C
 IMPORTANTE: para adicionar uma trecho de um texto a class use: <SPAN>, exemplos:
 <span class="Escreva o que quiser"> Lorem ipsum </span>
 
-DISPLAY = A propriedade display no CSS define como um elemento HTML é renderizado e se comporta no layout
 
 
 
