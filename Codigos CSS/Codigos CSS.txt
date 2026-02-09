@@ -33,6 +33,10 @@ OOUTLINE = Contorno externo, fora da border
 
 
 COLOR = cor das letras
+
+SHORTHAND BACKGROUND
+BACKGROUND: color, image, position, repeat, size, attachment
+
 BACKGROUND-COLOR = cor que aparece no fundo das paginas
 BACKGROUND-IMAGE: LINEAR-GRADIENT (DIREÇÃO QUE VC QUER, CORES QUE VC QUER) direção que vc quer o degrade de cor (cores que vc quer) exemplos: 
 background-image: linear-gradient(to right(ESQUERDA PARA DIREITA), black, white);
@@ -53,6 +57,11 @@ auto: A imagem mantém o seu tamanho original (largura e altura).
 Porcentagem: Define a largura e altura da imagem como uma porcentagem do tamanho da área do elemento (ex: background-size: 100% 100%; estica a imagem para preencher tudo, possivelmente distorcendo-a).
 Comprimento: Define tamanhos fixos para a largura e altura da imagem (ex: background-size: 300px 150px;).
 Um valor único: Se apenas um valor for definido (ex: background-size: 50%;), ele define a largura, e a altura é ajustada automaticamente para manter a proporção da imagem.
+
+BACKGROUND-ATTACHMENT: 
+scroll (Padrão): A imagem de fundo rola junto com a página e o conteúdo.
+fixed: A imagem fica travada no navegador, criando um efeito onde o conteúdo desliza sobre ela.
+local: A imagem de fundo rola junto com o conteúdo dentro do próprio elemento (útil para contêineres com overflow/scroll interno).
 
 STYLE = serve para incorporar códigos CSS diretamente no documento, definindo regras de estilo (como cores, fontes, layouts)
 
