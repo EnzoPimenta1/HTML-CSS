@@ -1,0 +1,225 @@
+        @charset "UTF-8";
+
+        * {
+        padding: 0px;
+        margin: 0px;}
+
+        header {
+        background-color: rgb(221, 221, 221);
+        max-width: 1000px;
+        min-width: 320px;
+        height: 50px;
+        margin: auto;
+        border: 1px solid black;}
+
+        nav {
+        text-align: center;
+        padding-top: 15px;}
+        
+
+        a.principal {
+        text-decoration: none;
+        color: rgb(61, 61, 61);
+        padding-right: 25px;
+        font-family: Arial, Helvetica, sans-serif;}
+
+        a.principal:hover {
+        text-decoration: underline;
+        background-color: rgb(73, 117, 73);
+        color: white;
+        border-radius: 5px;
+        padding: 10px 15px 10px 15px;}
+
+        main {
+        max-width: 1000px;
+        min-width: 300px;
+        margin: auto;}
+
+        section#principal {
+        border: 1px solid black;}
+        
+        div#imagem1 {
+        background-image: url('imagens/main.jpg');
+        width: 1000px;
+        height: 500px;
+        background-position: left bottom;}
+
+        h1#principal {
+        color: white;
+        padding-top: 200px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        font-family: "Playfair Display", serif;
+        font-size: 2.0em;
+        font-weight: 500;
+        text-shadow: 1px 1px 1px black;}
+
+        p#principal {
+        color: white;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 500px;
+        text-shadow: 1px 1px 1px black;}
+
+        a#sec {
+        color: white;
+        background-color: rgb(73, 117, 73);
+        padding: 10px 15px 10px 15px;
+        margin-left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-radius: 10px;}
+
+        a#sec:hover {
+        text-decoration: underline;}
+        
+        section#sec {
+        border: 1px solid black;}       
+        
+        div#imagem2 {
+        background-image: url('imagens/segundafoto.png');
+        width: 1000px;
+        height: 300px;
+        background-position: center left;}
+
+        h2#principal {
+        color: white;
+        padding-top: 80px;
+        padding-bottom: 10px;
+        padding-right: 50px;
+        margin-left: 470px;
+        font-family: "Playfair Display", serif;
+        font-size: 2.0em;
+        font-weight: 500;
+        text-shadow: 1px 1px 1px black;}
+
+        p#sec {
+        color: white;
+        padding-bottom: 25px;
+        padding-right: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 500px;
+        text-shadow: 1px 1px 1px black;
+        padding-left: 470px;}
+
+        a#terc {
+        color: white;
+        background-color: rgb(73, 117, 73);
+        padding: 10px 15px 10px 15px;
+        margin-left: 470px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-radius: 10px;
+        text-align: right;}
+
+        a#terc:hover {
+        text-decoration: underline;}
+
+        section#terc {
+        background-color: rgb(221, 221, 221);
+        padding-bottom: 20px;
+        border: 1px solid black;}
+        
+        div.terc {
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+        padding-left: 22px;}
+
+        h2#terc {
+        color: white;
+        padding-top: 100px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        font-family: "Playfair Display", serif;
+        font-size: 2.0em;
+        font-weight: 500;
+        text-shadow: 1px 1px 1px black;}
+
+        img {
+        width: 300px;
+        height: 200px;}
+
+        h3#principal {
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        font-size: 1.5em;
+        font-weight: 500;}
+
+        p#h31 {
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;}
+
+        h3#sec {
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        font-size: 1.5em;
+        font-weight: 500;}
+
+        p#h32 {
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;}
+
+        h3#terc {
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        font-size: 1.5em;
+        font-weight: 500;}
+
+        p#h33 {
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;}
+
+        a#quarto {
+        color: white;
+        background-color: rgb(73, 117, 73);
+        padding: 10px 15px 10px 15px;
+        margin-left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-radius: 10px;}
+
+        a#quarto:hover {
+        text-decoration: underline;}
+
+        div#quarto {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        text-align: center;}
+
+        footer {
+        background-color: rgb(73, 117, 73);
+        color: white;
+        border: 1px solid black;
+        text-align: center;
+        padding-bottom: 5px;}
+
+        h4 {
+        font-family: "Playfair Display", serif;
+        font-size: 1.3em;
+        font-weight: 500;
+        text-decoration: underline;
+        padding-bottom: 10px;}
+
+        a.quinto {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        display: block;
+        padding-bottom: 5px;}
+
+        a.quinto:hover {
+        text-decoration: underline;
+        }
+
+        div.q1 {
+        display: inline-block;
+        padding-left: 80px;}
