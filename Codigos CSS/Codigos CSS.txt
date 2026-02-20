@@ -82,6 +82,13 @@ TEXT-STYLE =  serve para definir o estilo da fonte como normal, itálico ou obl�
 
 * = usado para aplicar estilos a todos os elementos de uma página HTML de uma só vez
 
+POSITION = 
+static (Padrão): O elemento segue o fluxo normal do documento, ignorando propriedades como top ou left.
+relative: O elemento é posicionado em relação à sua posição original. Ele ainda ocupa seu espaço no fluxo normal.
+absolute: O elemento é removido do fluxo normal e posicionado em relação ao ancestral posicionado mais próximo (qualquer position diferente de static) ou ao corpo da página (body). USE LEFT E TOP
+fixed: O elemento fica fixo na tela (viewport), permanecendo na mesma posição mesmo ao rolar a página. É removido do fluxo.
+sticky: Comporta-se como relative até que a página atinja uma rolagem específica, momento em que se torna fixed. 
+
 WEIGHT: meche no peso
 WIDTH = meche na largura
 HEIGHT = meche na altura

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+margin: 0;
+padding: 0;}
+
+header {
+background-color: black;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;}
+
+main {
+min-width: 300px;
+}
+
+h1 {
+color: white;
+font-family: "Passion One", sans-serif;
+font-weight: 900;
+font-size: 50px;
+font-style: normal;}
+
+p#header {
+color: white;
+font-family: Arial, Helvetica, sans-serif;}
+
+a {
+color: white;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;}
+
+a:hover {
+text-decoration: underline;}
+
+p.main {
+font-family: "Sriracha", cursive;
+font-size: 30px;
+max-width: 350px;
+text-align: justify;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+margin: auto;}
+
+section#primeira {
+background-image: url(pacote-d012/imagens/background001.jpg);
+background-position: bottom center;
+background-size: cover;
+background-attachment: fixed;
+padding-top: 200px;
+padding-bottom: none;
+max-width: 1000px;
+min-width: 300px;
+height: 600px;
+margin: auto;
+border: solid 3px rgb(117, 117, 117);
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349);}
+
+p.main#main {
+background-color: rgba(255, 255, 255, 0.281);
+padding: 30px;
+color: white;
+text-shadow: 1px 1px 1px black;
+margin: auto;}
+
+section#secunda {
+background-image: url(pacote-d012/imagens/background002.jpg);
+background-position: center right;
+background-size: cover;
+background-attachment: fixed;
+padding-top: 200px;
+padding-bottom: none;
+max-width: 1000px;
+min-width: 300px;
+height: 600px;
+margin: auto;
+border: solid 3px rgb(117, 117, 117);
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349);}
+
+p.main#main2 {
+background-color: rgba(255, 255, 255, 0.281);
+padding: 30px;
+color: white;
+text-shadow: 1px 1px 1px black;
+margin: auto;}
+
+footer {
+background-color: black;
+color: white;
+padding: 10px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;}
