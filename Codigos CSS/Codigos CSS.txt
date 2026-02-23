@@ -74,6 +74,7 @@ FONT-WEIGHT = Peso da fonte, exemplos: (lighter, normal, bold, bolder) também s
 IMPORTANTE: nem todas fontes tem todas variações
 TEXT-ALIGN: JUSTIFY = deixa todas as linhas com o mesmo tamanho
 TEXT-ALIGN: CENTER = centraliza o texto
+VERTICAL-ALIGN: Para alinhar na horizontal
 TEXT-DECORATION: UNDERLINE; = sublinha os textos
 TEXT-STYLE =  serve para definir o estilo da fonte como normal, itálico ou oblíquo
 
@@ -94,8 +95,13 @@ WIDTH = meche na largura
 HEIGHT = meche na altura
 PADDING = serve para criar um espaçamento interno entre o conteúdo de um elemento
 MARGIN = serve para criar espaçamento externo ao redor dos elementos
+
 BORDER = A propriedade border adiciona uma linha ao redor do conteúdo de um elemento (entre o padding e a margin)
 BORDER-RADIUS: tamanho que vc quer; = acrescentar bordas arredondadas
+BORDER-COLLAPSE:
+border-collapse: collapse; As bordas das células (td, th) se fundem com as bordas da tabela, resultando em uma linha fina e única. É a escolha preferida para design moderno e consistente.
+border-collapse: separate; (Padrão) As bordas de cada célula permanecem distintas, mantendo o estilo de tabela clássico com espaços entre elas.
+
 OUTLINE = O outline é uma linha desenhada fora da borda do elemento. 
 BOX-SHADOW: X X X COR; = é usado para adicionar efeitos de sombra ao redor ou dentro de elementos
 TEXT-SHADOW: X X X COR; = adiciona sombra no texto
