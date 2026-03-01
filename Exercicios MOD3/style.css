@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+background-color: #27272a;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 20px 80px;
+background-color: #6366f1;
+height: 800px;
+width: 800px;
+margin: auto;
+padding: 50px;
+text-align: center;}
+
+.item {
+background-color: #38bdf8;
+width: 200px;
+height: 100px;}
+

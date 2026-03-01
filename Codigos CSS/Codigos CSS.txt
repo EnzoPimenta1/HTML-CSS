@@ -11,6 +11,23 @@ grid (CSS Grid): Transforma o elemento em um contêiner de grade, permitindo lay
 table: Faz o elemento se comportar como uma tabela HTML (funcionalidade mais antiga).
 list-item: Faz o elemento se comportar como um item de lista (<li>).
 
+flex-direction: row (Padrão): Os itens são organizados horizontalmente, da esquerda para a direita, conforme o modo de escrita.
+flex-direction: row-reverse: Os itens são organizados horizontalmente, mas da direita para a esquerda, invertendo a ordem.
+flex-direction: column: Os itens são empilhados verticalmente, de cima para baixo.
+flex-direction: column-reverse: Os itens são empilhados verticalmente, mas de baixo para cima, invertendo a ordem.
+
+flex-wrap: nowrap; (Padrão): Todos os itens flexíveis são forçados a ficar em uma única linha, o que pode causar estouro (overflow) do contêiner se não houver espaço suficiente. Os itens podem encolher para caber.
+flex-wrap: wrap;: Permite que os itens sejam quebrados em várias linhas (horizontal ou vertical, dependendo do flex-direction) quando não couberem na área disponível, movendo os elementos excedentes para baixo.
+flex-wrap: wrap-reverse;: Quebra os itens em múltiplas linhas na direção oposta ao flex-direction (inverte a direção da quebra), movendo os elementos excedentes para cima. 
+
+justify-contentflex: start (Padrão): Os itens são alinhados ao início do contêiner.
+justify-contentflex: flex-end: Os itens são alinhados ao final do contêiner.
+justify-contentflex: center: Os itens são alinhados no centro do contêiner.
+
+align-items: start: Os itens são alinhados ao início do eixo transversal (topo em row, esquerda em column).
+align-items: end: Os itens são alinhados ao final do eixo transversal (base em row, direita em column).
+align-items: center: Os itens são centralizados no eixo transversal.
+
 PSEUDO-CLASSES DE ESTADO DO USUARIO (Interativas)
 Estas ativam estilos baseados na interação do usuário com o elemento. 
 :hover: Aplicado quando o cursor do mouse passa sobre um elemento.
