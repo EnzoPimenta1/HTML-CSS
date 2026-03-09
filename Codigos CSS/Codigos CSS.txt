@@ -48,6 +48,8 @@ BORDER = Fica em volta do padding e do conteúdo
 MARGIN = É a distância entre um elemento e os outros
 OOUTLINE = Contorno externo, fora da border
 
+BOX-SIZING é uma propriedade CSS que define como a largura (width) e a altura (height) totais de um elemento são calculadas, incluindo ou não o padding e a borda (border) no tamanho final. Ela é fundamental para o controle de layouts, sendo border-box a prática recomendada para evitar que elementos ultrapassem o tamanho definido.
+
 
 COLOR = cor das letras
 

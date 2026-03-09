@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(img/fundo.jpg);
+    background-size: cover;
+    background-position: center;}
+
+.container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(5px);}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;}
+
+.input-box input::placeholder {
+    color: #c5c5c5;}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    font-size: 25px;}
+
+.remember-forgot {
+    display: flex;}
+
+.remember-forgot label input {
+    accent-color: white;
+    margin-right: 5px;}
+
+.remember-forgot a {
+    color: white;
+    margin-left: 75px;
+    text-decoration: none;
+    font-weight: 700;}
+
+a:hover {
+    text-decoration: underline;}
+
+.register-link {
+    text-align: center;}
+
+.register-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;}
+
+a#one:hover {
+    text-decoration: underline;}
+
+.login {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    margin: 20px 0;}
+
+.login:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    transition: 0.3s;}
